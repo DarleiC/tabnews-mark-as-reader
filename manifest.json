@@ -1,0 +1,28 @@
+{
+    "name": "tabnews",
+    "description": "sempre que o título conter [PITCH] a extensao deve muda a cor para o mesmo padrao de texto ja lido ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "webRequest"
+    ],
+    "action": {
+        "default_icon": "images/list.png",
+        "default_title": "Clique para remover SHORTS e EM BREVE"
+    },
+    "icons": {
+        "128": "images/list.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.tabnews.com.br/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
