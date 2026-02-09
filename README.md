@@ -1,4 +1,7 @@
-Use esta extensão, caso prefira que os artigos no [Tab News](https://www.tabnews.com.br) com o titulo "[PITCH]" mostre sempre "marcado como lido".
+[![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/)
+
+
+Use esta extensão, caso prefira que os artigos no [Tab News](https://www.tabnews.com.br) com o titulo "[PITCH]" mostre sempre "marcado como lido".  
 Ela também vai destacar o nome do autor do artigo seguindo a mesma paleta de cores do site.
 
 <p align="center">
