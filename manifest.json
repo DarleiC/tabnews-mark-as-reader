@@ -1,28 +1,20 @@
 {
-    "name": "tabnews",
-    "description": "sempre que o título conter [PITCH] a extensao deve muda a cor para o mesmo padrao de texto ja lido ",
-    "version": "1.0",
-    "manifest_version": 3,
-    "permissions": [
-        "scripting",
-        "activeTab",
-        "webRequest"
-    ],
-    "action": {
-        "default_icon": "images/list.png",
-        "default_title": "marque como lido 'PITCH' no site tabnews.com.br"
-    },
-    "icons": {
-        "128": "images/list.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://www.tabnews.com.br/*"
-            ],
-            "js": [
-                "main.js"
-            ]
-        }
-    ]
+	"name": "tabnews",
+	"description": "sempre que o título conter [PITCH] a extensao deve muda a cor para o mesmo padrao de texto ja lido ",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["scripting", "activeTab", "webRequest"],
+	"action": {
+		"default_icon": "images/list.png",
+		"default_title": "marque como lido 'PITCH' no site tabnews.com.br"
+	},
+	"icons": {
+		"128": "images/list.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.tabnews.com.br/*"],
+			"js": ["main.js"]
+		}
+	]
 }
