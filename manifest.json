@@ -10,7 +10,7 @@
     ],
     "action": {
         "default_icon": "images/list.png",
-        "default_title": "marque como lido"
+        "default_title": "marque como lido 'PITCH' no site tabnews.com.br"
     },
     "icons": {
         "128": "images/list.png"
