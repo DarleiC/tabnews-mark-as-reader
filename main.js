@@ -1,7 +1,9 @@
 let lastUrl = location.href
 
 const regrasTitulos = [
-	{ term: "[PITCH]", color: "#6e7681" },
+	{ term: "[PITCH]", color: "#6e7681" }, //Rage mark use color #0D1117
+	{ term: "Pitch", color: "#6e7681" },
+	{ term: "pitch", color: "#6e7681" },
 	{ term: "IA", color: "#f8b806" },
 	{ term: "AI", color: "#f8b806" },
 	{ term: "SaaS", color: "#f80606" }
